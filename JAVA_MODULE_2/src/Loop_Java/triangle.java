@@ -10,7 +10,7 @@ public class triangle {
             System.out.println("1. Print the rectangle");
             System.out.println("2. Print the square triangle");
             System.out.println("3. Print isosceles triangle");
-            System.out.println("0. Exit");
+            System.out.println("5. Exit");
             System.out.println("Enter your choice: ");
             choise = input.nextInt();
             switch (choise) {
@@ -33,7 +33,7 @@ public class triangle {
                         System.out.println("2. Print the square triangle: top-right");
                         System.out.println("3. Print the square triangle: bottom-left");
                         System.out.println("4. Print the square triangle: bottom-right");
-                        System.out.println("0. Exit");
+                        System.out.println("5. Exit");
                         System.out.println("Enter your choice: ");
                         choisece = input.nextInt();
                         switch (choisece) {
@@ -85,13 +85,15 @@ public class triangle {
                                     cach1 += "* ";
                                 }
                                 break;
-                            case 0:
+                            case 5:
                                 choisece = 0;
                                 break;
                             default:
                                 System.out.println("No choice!");
                         }
+                        break;
                     }
+                    break;
                 case 3:
                     System.out.println("Nhập chiều dài cạnh tam giác cân: ");
                     int choiseses = input.nextInt();
@@ -108,8 +110,9 @@ public class triangle {
                         System.out.println();
                     }
                     break;
-                case 0:
-                    System.exit(0);
+                case 5:
+                    System.exit(5);
+                    break;
                 default:
                     System.out.println("No choice!");
             }
