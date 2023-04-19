@@ -1,6 +1,4 @@
-package BaiTap_Nhom_L1;
-
-import java.sql.SQLOutput;
+package baiTap_Nhom_L1;
 
 public class Baitap3 {
   static int count = 0;

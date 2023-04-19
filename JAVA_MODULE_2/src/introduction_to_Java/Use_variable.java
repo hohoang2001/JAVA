@@ -1,4 +1,4 @@
-package Introduction_to_Java;
+package introduction_to_Java;
 public class Use_variable {
     public static void main(String[] args) {
         int i = 10;

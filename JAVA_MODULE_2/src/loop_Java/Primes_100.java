@@ -1,4 +1,4 @@
-package Loop_Java;
+package loop_Java;
 
 public class Primes_100 {
     public static void main(String[] args) {

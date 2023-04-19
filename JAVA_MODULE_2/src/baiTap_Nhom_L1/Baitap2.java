@@ -1,4 +1,4 @@
-package BaiTap_Nhom_L1;
+package baiTap_Nhom_L1;
 
 public class Baitap2 {
     public static void main(String[] args) {
