@@ -76,8 +76,8 @@ public class triangle {
                                 System.out.println("Nhập chiều dài cạnh góc vuông: ");
                                 String cach1 = "* ";
                                 int lenght4 = input.nextInt();
-                                for (int i = 0; i < lenght4; i++){
-                                    for (int j = lenght4 -1; j > 0; j--){
+                                for (int i = 0; i < lenght4; i++) {
+                                    for (int j = lenght4 - 1; j > 0; j--) {
                                         System.out.print("* ");
                                     }
                                     System.out.println();
@@ -97,14 +97,14 @@ public class triangle {
                 case 3:
                     System.out.println("Nhập chiều dài cạnh tam giác cân: ");
                     int choiseses = input.nextInt();
-                    for (int i = 0; i < choiseses; i++){
-                        for (int j = 0 ; j < i; j++){
+                    for (int i = 0; i < choiseses; i++) {
+                        for (int j = 0; j < i; j++) {
                             System.out.print("* ");
                         }
                         System.out.println();
                     }
-                    for (int i = choiseses; i > 0; i--){
-                        for (int j = 0; j < i; j++){
+                    for (int i = choiseses; i > 0; i--) {
+                        for (int j = 0; j < i; j++) {
                             System.out.print("* ");
                         }
                         System.out.println();
