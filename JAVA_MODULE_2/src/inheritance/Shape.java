@@ -1,10 +1,9 @@
 package inheritance;
 
 public class Shape {
-    private String color = " green";
+    private String color = "green";
     private boolean filled = true;
     public Shape(){
-
     }
     public Shape(String color, boolean filled){
         this.color = color;
@@ -26,7 +25,7 @@ public class Shape {
     }
     @Override
     public String toString(){
-        return "A Shape with color of"
+        return "A Shape with color of "
                 + getcolor()
                 + " and "
                 + (getfilled() ? " filled" : "not filled");

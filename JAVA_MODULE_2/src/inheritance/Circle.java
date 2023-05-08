@@ -1,6 +1,8 @@
 package inheritance;
 
-public class Circle extends Shape{
+import AbstractClass_Interface.Resizeable;
+
+public class Circle extends Shape implements Resizeable {
     public double radius = 1.0;
     public Circle(){
 
@@ -35,5 +37,10 @@ public class Circle extends Shape{
                 + ", which is a subclass of "
                 + super.toString()
                 ;
+    }
+
+    @Override
+    public void resize(double percent) {
+
     }
 }

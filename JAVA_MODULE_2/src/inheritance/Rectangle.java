@@ -1,6 +1,8 @@
 package inheritance;
 
-public class Rectangle  extends Shape{
+import AbstractClass_Interface.Resizeable;
+
+public class Rectangle  extends Shape implements Resizeable {
     private double width = 1.0;
     private  double  lenght = 1.0;
     public Rectangle(){
@@ -48,5 +50,11 @@ public class Rectangle  extends Shape{
                 getLenght()
                 + ", which is a subclass of "
                 +super.toString();
+    }
+
+    @Override
+    public void resize(double percent) {
+        double newSide = getPerimeter() * (1 + percent / 100);
+
     }
 }
